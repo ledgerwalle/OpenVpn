@@ -6,12 +6,16 @@ sudo apt install mc nano wget curl
 
 2.Для операционных систем, версии которых не ниже Ubuntu 18.04, Debian 9, CentOS 7. 
 Допускаются данные версии и выше. Скрипт автоматической установки OpenVPN:
-
+wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 
 wget https://github.com/ledgerwalle/OpenVpn/blob/main/openvpn-install.sh
 
 bash openvpn-install.sh
 
+Для операционных систем, версии которых ниже ранее перечисленных. Выполнять нужно следующий скрипт:
+
+wget https://git.io/vpn1604 -O openvpn-install.sh && bash openvpn-install.sh
+Этот скрипт подойдет для операционных систем не выше, но в том числе, Ubuntu 16.04, Debian 8, Centos 6.
 
 ------------------------------------(Весь код всего в  три строчки )---------------------------------
 После входа на ваш сервер по очереди ставьте код из 5 строки потом из 11 потом из 13 на этом всё

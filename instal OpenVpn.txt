@@ -44,6 +44,10 @@ chmod +x openvpn-install.sh
 Все скрипты не МОИ Я всё проверил всё работает но на европейских серверах где как где-то нехватало пакетов на серверах.
 
 
+Следуя этим пунктам, вы установите Outline на Linux-сервер облачного сервиса .
+1
+Зайдите на сервер и выполните эту команду.
+sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
 
 
 
